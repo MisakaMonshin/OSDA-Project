@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# 数据集
+data/raw/
+data/processed/
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.tar
+*.7z
+*.rar
+
+# 日志
+*.log
+logs/
+tensorboard_logs/
+wandb/
+
+# 训练输出
+checkpoints/
+saved_models/
+training_output/
+*.json.bak
+
+# 大文件
+results/saved_models_*/
+results/logs_*/
+baseline_models/
+
+# 系统文件
+.DS_Store
+*.tmp
+*.bak
+*.swp
+
+# 临时文件
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+.lock
+*.lock
